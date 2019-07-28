@@ -1,19 +1,32 @@
 <!doctype html>
 <HTML   lang="fr">
     <head>
-     
-        
-        
+
+        <link rel="stylesheet" type="text/css" href="css.css">
+
+
     </head>
 
 
 
     <body>
-        <div id="demo"></div>
-       
+        <div id="demotxt">This text is a special text fullfilling the space dedicated to it in case of hovering one, or more specially sub image</div>
 
-        
-                <script src="indexJS.js"></script>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        <button onclick="deletee()" type="button">Delete line</button>
 
+
+
+
+
+
+        <audio id="myAudio">
+            <source src="Beep_example.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="playsound()" type="button">Play sound</button>
+
+        <script src="indexJS.js"></script>
     </body>
 </HTML>

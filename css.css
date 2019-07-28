@@ -1,0 +1,6 @@
+body{
+    /*https://filosophy.org/code/using-html5-canvas-to-make-a-generative-background/*/
+    background: canvas(mybackground);
+
+
+}
